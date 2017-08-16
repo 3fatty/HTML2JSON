@@ -10,7 +10,7 @@ simple HTML2JSON &amp; JSON2HTML converter
 3. 2JSON 和 2HTML 可配置
 4. 提供 DOM 同名解析函数, 如 getElementById
 
-### 提供的结构主要分为两部分:
+### 提供的接口主要分为两部分:
 * #### 转换 ![image](https://github.com/3fatty/HTML2JSON/blob/master/imgs/convert.png)
 * #### 解析 ![image](https://github.com/3fatty/HTML2JSON/blob/master/imgs/parse.png)
 
