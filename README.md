@@ -33,11 +33,11 @@ var text     = converter.getElementsByClassName(jsonObj);
 ...
 
 // 解析方法的核心是 getElementsByAttrs 和 getElementsByProps, 两个方法用法一致
-// byClassName/byTagName 等都是基于这两个方法的封装.
+// byClassName / byTagName 等都是基于这两个方法的封装.
 var elems    =  converter.getElementsByAttrs(jsonObj, 'name', 'value',  {
-  isValueMult   : false, // 是否有多个值,    getElementsByClassName 默认为true
-  isCaseIgnored : false, // 是否忽略大小写,  getElementsByTagName 默认为true
-  isResultSole  : false, // 是否只取一个结果, getElementById 默认为true
+  isValueMult   : false, // 是否有多个值,     默认为false, getElementsByClassName 默认为true
+  isCaseIgnored : false, // 是否忽略大小写,   默认为false, getElementsByTagName 默认为true
+  isResultSole  : false, // 是否只取一个结果,  默认为false, getElementById 默认为true
 });
 ...
 
